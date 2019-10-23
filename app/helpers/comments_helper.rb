@@ -1,2 +1,3 @@
-module CommentsHelper
-end
+# frozen_string_literal: true
+
+module CommentsHelper; end

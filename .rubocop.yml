@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - "bin/*"
+    - "node_modules/**/*"
     - "db/**/*"
     - "config/**/*"
     - "Guardfile"
