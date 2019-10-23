@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+class AddColumnsToPosts < ActiveRecord::Migration[6.0]
+  def change
+    add_column :posts, :title, :string
+    add_column :posts, :body, :text
+    add_column :posts, :author_id, :integer
+  end
+end
